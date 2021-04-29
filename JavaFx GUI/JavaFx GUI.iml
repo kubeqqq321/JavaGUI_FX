@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/#10_TextField" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#11_CheckBox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#12_RadioButtons" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#13_DatePicker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#14_ColorPicker" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#15_ChoiceBox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#16_Slider" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#17_ProgressBar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#18_Spinner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#19_ListView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#1_Stages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#20_TreeView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#21_MenuBar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#22_FlowPane" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#23_KeyEvent" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#24_animations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#25_MediaView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#26_WebView + building a web browser" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#27_Mp3 music player project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#2_Scenes+drawing stuff" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#3_Scene Builder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#4_Event handling using Scene Builder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#5_CSS styling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#6_switch scenes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#7_communication between controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#8_logout-exit button" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/#9_ImageView" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>
