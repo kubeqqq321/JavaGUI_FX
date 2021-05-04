@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_12">
+   <children>
+      <RadioButton fx:id="rButton2" layoutX="14.0" layoutY="257.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Pizza">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="food" />
+         </toggleGroup>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton1" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="Hamburger" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton3" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Fish" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <Label alignment="CENTER" layoutY="26.0" prefHeight="35.0" prefWidth="600.0" text="Select what you want order">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="myLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="102.0" prefHeight="62.0" prefWidth="292.0">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <RadioButton fx:id="rButton21" layoutX="218.0" layoutY="257.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Sushi" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton11" layoutX="218.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="Spaghetti" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton31" layoutX="218.0" layoutY="313.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Ramen" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton22" layoutX="422.0" layoutY="257.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Chips" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton12" accessibleRole="BUTTON" layoutX="422.0" layoutY="200.0" mnemonicParsing="false" onAction="#getFood" text="Steak" textOverrun="CLIP" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+      <RadioButton fx:id="rButton32" layoutX="422.0" layoutY="313.0" mnemonicParsing="false" onAction="#getFood" prefHeight="35.0" prefWidth="164.0" text="Chicken" toggleGroup="$food">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.48091603053435117" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </RadioButton>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="32.0" left="123.0" right="12.0" top="23.0" />
+   </opaqueInsets>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
